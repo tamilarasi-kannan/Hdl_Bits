@@ -1,0 +1,11 @@
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+    
+    wire or_gate;
+    assign or_gate = a|b;
+    
+    assign out = ~or_gate;
+
+endmodule
